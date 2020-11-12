@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/498509b54d.js"></script>
+    <title>My Version - Car Company</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="topHeader">
+        <div class="topHeader__content" id="container">
+          <div class="topHeader__contact">
+            <a href="#" class="topHeader--call"
+              ><span><i class="fas fa-phone-alt"></i></span>Need Support?
+              1-800-AAA-BBBB</a
+            >
+            <a href="#" class="topHeader--mail"
+              ><span><i class="fas fa-envelope"></i></span
+              >email@CarCompany.com</a
+            >
+          </div>
+          <div class="topHeader__login">
+            <a href="#"
+              ><span><i class="fas fa-sign-in-alt"></i></span>login</a
+            >
+            <a href="#"
+              ><span><i class="fas fa-user"></i></span>register</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="mainHeader">
+        <div class="mainHeader__content" id="container">
+          <a href="index.html" class="mainHeader__companyLogo">car<span>company</span></a>
+
+          <div tabindex="0" class="hamburger">
+            <button class="hamburger__burger">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mainNav">
+        <ul class="mainNav__list">
+          <li class="mainNav__link mainNav__link--hasDrop">
+            <a tabindex="0" class="mainNav__link__item"
+              >home<span><i class="fas fa-caret-down"></i></span
+            ></a>
+            <ul class="mainNav__link__subMenu">
+              <li class="subMenu__subItem"><a href="#" class="subMenu__subItem--item">home 1</a></li>
+              <li class="subMenu__subItem"><a href="#" class="subMenu__subItem--item">home 2</a></li>
+              <li class="subMenu__subItem"><a href="#" class="subMenu__subItem--item">home 3</a></li>
+              <li class="subMenu__subItem"><a href="#" class="subMenu__subItem--item">home 4</a></li>
+              <li class="subMenu__subItem"><a href="#" class="subMenu__subItem--item">home 5</a></li>
+            </ul>
+          </li>
+          <li class="mainNav__link mainNav__link--hasDrop">
+            <a tabindex="0" class="mainNav__link__item"
+              >car listing<span><i class="fas fa-caret-down"></i></span
+            ></a>
+            <ul class="mainNav__link__subMenu">
+              <li class="subMenu__subItem">
+                <a href="#" class="subMenu__subItem--item">list layout</a>
+              </li>
+              <li class="subMenu__subItem">
+                <a href="#" class="subMenu__subItem--item">grid layout</a>
+              </li>
+              <li class="subMenu__subItem">
+                <a href="#" class="subMenu__subItem--item">car details</a>
+              </li>
+            </ul>
+          </li>
+          <li class="mainNav__link mainNav__link--hasDrop">
+            <a tabindex="0" class="mainNav__link__item"
+              >pages<span><i class="fas fa-caret-down"></i></span
+            ></a>
+            <ul class="mainNav__link__subMenu">
+              <li class="subMenu__subItem">
+                <a href="#" class="subMenu__subItem--item">pages</a>
+              </li>
+              <li class="subMenu__subItem">
+                <a href="#" class="subMenu__subItem--item">pages</a>
+              </li>
+              <li class="subMenu__subItem">
+                <a href="#" class="subMenu__subItem--item">pages</a>
+              </li>
+            </ul>
+          </li>
+          <li class="mainNav__link mainNav__link--hasDrop">
+            <a tabindex="0" class="mainNav__link__item"
+              >blog<span><i class="fas fa-caret-down"></i></span
+            ></a>
+            <ul class="mainNav__link__subMenu">
+              <li class="subMenu__subItem">
+                <a href="#" class="subMenu__subItem--item">blog post</a>
+              </li>
+              <li class="subMenu__subItem">
+                <a href="#" class="subMenu__subItem--item">blog sidebar</a>
+              </li>
+              <li class="subMenu__subItem">
+                <a href="#" class="subMenu__subItem--item">blog details</a>
+              </li>
+            </ul>
+          </li>
+          <li class="mainNav__link mainNav__link--hasDrop">
+            <a tabindex="0" class="mainNav__link__item"
+              >shop<span><i class="fas fa-caret-down"></i></span
+            ></a>
+            <ul class="mainNav__link__subMenu">
+              <li class="subMenu__subItem">
+                <a href="#" class="subMenu__subItem--item">shop list</a>
+              </li>
+              <li class="subMenu__subItem">
+                <a href="#" class="subMenu__subItem--item">shop cart</a>
+              </li>
+              <li class="subMenu__subItem">
+                <a href="#" class="subMenu__subItem--item">shop checkout</a>
+              </li>
+              <li class="subMenu__subItem">
+                <a href="#" class="subMenu__subItem--item">shop details</a>
+              </li>
+            </ul>
+          </li>
+          <li class="mainNav__link"><a href="#" class="mainNav__link__item">contact</a></li>
+          <li class="mainNav__link">
+            <a href="#" class="mainNav__link__item"><i class="fas fa-search"></i></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- ******************************************** INTRO -->
+      <div class="intro__slideshow">
+        <div class="carSlides carSlides--slide">
+          <img
+            src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=847&q=80"
+            alt=""
+            class="slidepic"
+          />
+          <div class="intro__banner left--text" id="container">
+            <h1 class="intro__title left--text">welcome to car company</h1>
+            <p class="intro__subtitle left--text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
+              delectus?
+            </p>
+            <div class="intro-buttons left--text">
+              <a href="#" class="btn btn__primary--intro">get started now</a>
+              <a href="#" class="btn btn__outlined--intro">learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carSlides carSlides--slide">
+          <img
+            src="https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            alt=""
+            class="slidepic"
+          />
+          <div class="intro__banner" id="container">
+            <h1 class="intro__title center--text">find your dream car</h1>
+            <p class="intro__subtitle center--text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
+              delectus?
+            </p>
+            <div class="intro-buttons center--text">
+              <a href="#" class="btn btn__primary--intro">get started now</a>
+              <a href="#" class="btn btn__outlined--intro">learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carSlides carSlides--slide">
+          <img
+            src="https://images.unsplash.com/photo-1517994112540-009c47ea476b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=781&q=80"
+            alt=""
+            class="slidepic"
+          />
+          <div class="intro__banner" id="container">
+            <h1 class="intro__title right--text">best place for sell cars</h1>
+            <p class="intro__subtitle right--text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
+              delectus?
+            </p>
+            <div class="intro-buttons right--text">
+              <a href="#" class="btn btn__primary--intro">get started now</a>
+              <a href="#" class="btn btn__outlined--intro">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- ******************************************** FIND BAR -->
+      <div class="findBar">
+        <ul class="findBar__content" id="container">
+          <li class="select__option select--brand">select brand<i class="fas fa-caret-down"></i></li>
+          <li class="select__option select--make">select make<i class="fas fa-caret-down"></i></li>
+          <li class="select__option select--location">select location<i class="fas fa-caret-down"></i></li>
+          <li class="select__option select--year">select year<i class="fas fa-caret-down"></i></li>
+          <li class="select__option select--typeOfCar">select type of car<i class="fas fa-caret-down"></i></li>
+          <li class="btn select__option btn--find"><i class="fas fa-search"></i>find</li>
+        </ul>
+      </div>
+
+      <!-- ******************************************** FEATURED CAR -->
+      <div class="mainSections featuredCar" id="container">
+        <h2 class="mainSections__title">featured car</h2>
+        <p class="mainSections__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolore.</p>
+        <div class="featuredCar__list">
+
+          <!-- featured car 1 -->
+          <div class="featuredCar__card card--one">
+            <div class="featuredCar__card--top">
+              <a href="#" class="featuredCar__img"><img src="https://images.unsplash.com/photo-1494905998402-395d579af36f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="featured car 1 from unsplash"></a>
+              <div class="overLay">
+                <div class="overlay__icon">
+                  <i class="far fa-eye-slash"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-balance-scale"></i>
+                  <i class="fas fa-expand-alt"></i>
+                </div>
+              </div>
+              <p class="cardTop--label">for sale</p>
+              <p class="lined--price">$950.00</p>
+              <p class="new--price">$1,050.00</p>
+            </div>
+            <div class="featuredCar__card--bottom">
+              <a href="#" class="cardBottom--title">black mustang</a>
+              <p class="cardBottom--subTitle"> new car / automatic / sport</p>
+              <ul class="cardBottom__description">
+                <li class="description__item"><span class="description--icon"><i class="fas fa-gas-pump"></i></span>Petrol</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-road"></i></span>4,000 km</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-cog"></i></span>Manual</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-car"></i></span>Car</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-paint-brush"></i></span>Blue</li>
+                <li class="description__item"><span class="description--icon"><i class="far fa-calendar-alt"></i></span>2019</li>
+              </ul>
+              <ul class="cardBottom__reviews">
+                <li class="reviews--item"><span class="reviews--icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>(65 Reviews)</li>
+                <ul class="reviews__iconGrp">
+                  <li class="icongrp__item"><a href="#"><span class="icongrp--heart"><i class="far fa-heart"></i></span></a></li>
+                  <li class="icongrp__item"><a href="#"><span class="icongrp--exit"><i class="far fa-share-square"></i></span></a></li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+
+          <!-- featured car 2 -->
+          <div class="featuredCar__card card--two">
+            <div class="featuredCar__card--top">
+              <a href="#" class="featuredCar__img"><img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="featured car 2 from unsplash"></a>
+              <div class="overLay">
+                <div class="overlay__icon">
+                  <i class="far fa-eye-slash"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-balance-scale"></i>
+                  <i class="fas fa-expand-alt"></i>
+                </div>
+              </div>
+              <p class="cardTop--label">for sale</p>
+              <p class="lined--price">$950.00</p>
+              <p class="new--price">$1,050.00</p>
+            </div>
+            <div class="featuredCar__card--bottom">
+              <a href="#" class="cardBottom--title">red ferrari</a>
+              <p class="cardBottom--subTitle"> new car / automatic / sport</p>
+              <ul class="cardBottom__description">
+                <li class="description__item"><span class="description--icon"><i class="fas fa-gas-pump"></i></span>Petrol</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-road"></i></span>4,000 km</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-cog"></i></span>Manual</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-car"></i></span>Car</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-paint-brush"></i></span>Blue</li>
+                <li class="description__item"><span class="description--icon"><i class="far fa-calendar-alt"></i></span>2019</li>
+              </ul>
+              <ul class="cardBottom__reviews">
+                <li class="reviews--item"><span class="reviews--icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>(65 Reviews)</li>
+                <ul class="reviews__iconGrp">
+                  <li class="icongrp__item"><a href="#"><span class="icongrp--heart"><i class="far fa-heart"></i></span></a></li>
+                  <li class="icongrp__item"><a href="#"><span class="icongrp--exit"><i class="far fa-share-square"></i></span></a></li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+
+          <!-- featured car 3 -->
+          <div class="featuredCar__card card--three">
+            <div class="featuredCar__card--top">
+              <a href="#" class="featuredCar__img"><img src="https://images.unsplash.com/photo-1506610654-064fbba4780c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="featured car 3 from unsplash"></a>
+              <div class="overLay">
+                <div class="overlay__icon">
+                  <i class="far fa-eye-slash"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-balance-scale"></i>
+                  <i class="fas fa-expand-alt"></i>
+                </div>
+              </div>
+              <p class="cardTop--label">for sale</p>
+              <p class="lined--price">$950.00</p>
+              <p class="new--price">$1,050.00</p>
+            </div>
+            <div class="featuredCar__card--bottom">
+              <a href="#" class="cardBottom--title">ford</a>
+              <p class="cardBottom--subTitle"> new car / automatic / sport</p>
+              <ul class="cardBottom__description">
+                <li class="description__item"><span class="description--icon"><i class="fas fa-gas-pump"></i></span>Petrol</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-road"></i></span>4,000 km</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-cog"></i></span>Manual</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-car"></i></span>Car</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-paint-brush"></i></span>Blue</li>
+                <li class="description__item"><span class="description--icon"><i class="far fa-calendar-alt"></i></span>2019</li>
+              </ul>
+              <ul class="cardBottom__reviews">
+                <li class="reviews--item"><span class="reviews--icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>(65 Reviews)</li>
+                <ul class="reviews__iconGrp">
+                  <li class="icongrp__item"><a href="#"><span class="icongrp--heart"><i class="far fa-heart"></i></span></a></li>
+                  <li class="icongrp__item"><a href="#"><span class="icongrp--exit"><i class="far fa-share-square"></i></span></a></li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+
+          <!-- featured car 4 -->
+          <div class="featuredCar__card card--four">
+            <div class="featuredCar__card--top">
+              <a href="#" class="featuredCar__img"><img src="https://images.unsplash.com/photo-1579508542697-bb18e7d9aeaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="featured car 4 from unsplash"></a>
+              <div class="overLay">
+                <div class="overlay__icon">
+                  <i class="far fa-eye-slash"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-balance-scale"></i>
+                  <i class="fas fa-expand-alt"></i>
+                </div>
+              </div>
+              <p class="cardTop--label">for sale</p>
+              <p class="lined--price">$950.00</p>
+              <p class="new--price">$1,050.00</p>
+            </div>
+            <div class="featuredCar__card--bottom">
+              <a href="#" class="cardBottom--title">mercedez benz</a>
+              <p class="cardBottom--subTitle"> new car / automatic / sport</p>
+              <ul class="cardBottom__description">
+                <li class="description__item"><span class="description--icon"><i class="fas fa-gas-pump"></i></span>Petrol</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-road"></i></span>4,000 km</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-cog"></i></span>Manual</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-car"></i></span>Car</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-paint-brush"></i></span>Blue</li>
+                <li class="description__item"><span class="description--icon"><i class="far fa-calendar-alt"></i></span>2019</li>
+              </ul>
+              <ul class="cardBottom__reviews">
+                <li class="reviews--item"><span class="reviews--icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>(65 Reviews)</li>
+                <ul class="reviews__iconGrp">
+                  <li class="icongrp__item"><a href="#"><span class="icongrp--heart"><i class="far fa-heart"></i></span></a></li>
+                  <li class="icongrp__item"><a href="#"><span class="icongrp--exit"><i class="far fa-share-square"></i></span></a></li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+
+          <!-- featured car 5 -->
+          <div class="featuredCar__card card--five">
+            <div class="featuredCar__card--top">
+              <a href="#" class="featuredCar__img"><img src="https://images.unsplash.com/photo-1570362131953-258ee7b43644?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80" alt="featured car 5 from unsplash"></a>
+              <div class="overLay">
+                <div class="overlay__icon">
+                  <i class="far fa-eye-slash"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-balance-scale"></i>
+                  <i class="fas fa-expand-alt"></i>
+                </div>
+              </div>
+              <p class="cardTop--label">for sale</p>
+              <p class="lined--price">$950.00</p>
+              <p class="new--price">$1,050.00</p>
+            </div>
+            <div class="featuredCar__card--bottom">
+              <a href="#" class="cardBottom--title">black benz</a>
+              <p class="cardBottom--subTitle"> new car / automatic / sport</p>
+              <ul class="cardBottom__description">
+                <li class="description__item"><span class="description--icon"><i class="fas fa-gas-pump"></i></span>Petrol</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-road"></i></span>4,000 km</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-cog"></i></span>Manual</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-car"></i></span>Car</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-paint-brush"></i></span>Blue</li>
+                <li class="description__item"><span class="description--icon"><i class="far fa-calendar-alt"></i></span>2019</li>
+              </ul>
+              <ul class="cardBottom__reviews">
+                <li class="reviews--item"><span class="reviews--icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>(65 Reviews)</li>
+                <ul class="reviews__iconGrp">
+                  <li class="icongrp__item"><a href="#"><span class="icongrp--heart"><i class="far fa-heart"></i></span></a></li>
+                  <li class="icongrp__item"><a href="#"><span class="icongrp--exit"><i class="far fa-share-square"></i></span></a></li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+
+          <!-- featured car 6 -->
+          <div class="featuredCar__card card--six">
+            <div class="featuredCar__card--top">
+              <a href="#" class="featuredCar__img"><img src="https://images.unsplash.com/photo-1597404294360-feeeda04612e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="featured car 6 from unsplash"></a>
+              <div class="overLay">
+                <div class="overlay__icon">
+                  <i class="far fa-eye-slash"></i>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-balance-scale"></i>
+                  <i class="fas fa-expand-alt"></i>
+                </div>
+              </div>
+              <p class="cardTop--label">for sale</p>
+              <p class="lined--price">$950.00</p>
+              <p class="new--price">$1,050.00</p>
+            </div>
+            <div class="featuredCar__card--bottom">
+              <a href="#" class="cardBottom--title">mustang</a>
+              <p class="cardBottom--subTitle"> new car / automatic / sport</p>
+              <ul class="cardBottom__description">
+                <li class="description__item"><span class="description--icon"><i class="fas fa-gas-pump"></i></span>Petrol</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-road"></i></span>4,000 km</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-cog"></i></span>Manual</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-car"></i></span>Car</li>
+                <li class="description__item"><span class="description--icon"><i class="fas fa-paint-brush"></i></span>Blue</li>
+                <li class="description__item"><span class="description--icon"><i class="far fa-calendar-alt"></i></span>2019</li>
+              </ul>
+              <ul class="cardBottom__reviews">
+                <li class="reviews--item"><span class="reviews--icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>(65 Reviews)</li>
+                <ul class="reviews__iconGrp">
+                  <li class="icongrp__item"><a href="#"><span class="icongrp--heart"><i class="far fa-heart"></i></span></a></li>
+                  <li class="icongrp__item"><a href="#"><span class="icongrp--exit"><i class="far fa-share-square"></i></span></a></li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ******************************************** WE R D BEST -->
+      <div class="mainSections weRDBest" id="container">
+        <h2 class="mainSections__title">we are the best</h2>
+        <p class="mainSections__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolore.</p>
+        <div class="weRDBest__list">
+
+          <!-- we are the best list 1 -->
+          <div class="weRDBest__card weRDBest__card--one">
+            <div class="bestCard__content">
+              <p class="weRDBest--icon"><i class="fas fa-shield-alt"></i></p>
+              <p class="weRDBest--title">highly secured</p>
+              <p class="weRDBest--subTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, asperiores.</p>
+            </div>
+          </div>
+
+          <!-- we are the best list 2 -->
+          <div class="weRDBest__card weRDBest__card--two">
+            <div class="bestCard__content">
+              <p class="weRDBest--icon"><i class="far fa-handshake"></i></p>
+              <p class="weRDBest--title">trusted agents</p>
+              <p class="weRDBest--subTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, asperiores.</p>
+            </div>
+          </div>
+
+          <!-- we are the best list 3 -->
+          <div class="weRDBest__card weRDBest__card--three">
+            <div class="bestCard__content">
+              <p class="weRDBest--icon"><i class="fas fa-hand-holding-usd"></i></p>
+              <p class="weRDBest--title">get an offer</p>
+              <p class="weRDBest--subTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, asperiores.</p>
+            </div>
+          </div>
+
+          <!-- we are the best list 4 -->
+          <div class="weRDBest__card weRDBest__card--four">
+            <div class="bestCard__content">
+              <p class="weRDBest--icon"><i class="fab fa-rocketchat"></i></p>
+              <p class="weRDBest--title">free support</p>
+              <p class="weRDBest--subTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, asperiores.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="werDBest__btn">
+          <a href="#" class="btn btn__weRDBest">read more</a>
+        </div>
+      </div>
+
+      <!-- ******************************************** LATEST OFFERS -->
+      <div class="mainSections latestOffer" id="container">
+        <h2 class="mainSections__title">latest offers</h2>
+        <p class="mainSections__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolore.</p>
+        <div class="latestOffer__list">
+
+          <!-- latest offer grid -->
+          <div class="latestOffer__card latestOffer--one">
+            <div class="latestOffer__card--container">
+              <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" class="latestOffer__img latestOffer__img--one" alt="latest offer 1 from unsplash">
+              <p class="latestOffer--label">new</p>
+              <p class="latestOffer--price"><span>$750</span>/month</p>
+              <p class="latestOffer--name">ferrari</p>
+            </div>
+          </div>
+          
+          <div class="latestOffer__card latestOffer--two">
+            <div class="latestOffer__card--container">
+              <img src="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80" class="latestOffer__img latestOffer__img--two" alt="latest offer 2 from unsplash">
+              <p class="latestOffer--label">new</p>
+              <p class="latestOffer--price"><span>$700</span>/month</p>
+              <p class="latestOffer--name">porche</p>
+            </div>
+          </div>
+
+          <div class="latestOffer__card latestOffer--three">
+            <div class="latestOffer__card--container">
+              <img src="https://images.unsplash.com/photo-1586462504970-9cc7aee9cdaf?ixlib=rb-1.2.1&auto=format&fit=crop&w=647&q=80" class="latestOffer__img latestOffer__img--three" alt="latest offer 3 from unsplash">
+              <p class="latestOffer--label">new</p>
+              <p class="latestOffer--price"><span>$550</span>/month</p>
+              <p class="latestOffer--name">ford</p>
+            </div>
+          </div>
+
+          <div class="latestOffer__card latestOffer--four">
+            <div class="latestOffer__card--container">
+              <img src="https://images.unsplash.com/photo-1532974297617-c0f05fe48bff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" class="latestOffer__img latestOffer__img--four" alt="latest offer 4 from unsplash">
+              <p class="latestOffer--label">new</p>
+              <p class="latestOffer--price"><span>$650</span>/month</p>
+              <p class="latestOffer--name">audi</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ******************************************** OUR AGENT -->
+      <div class="mainSections ourAgent" id="container">
+        <h2 class="mainSections__title">our agent</h2>
+        <p class="mainSections__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolore.</p>
+        <div class="ourAgent__list">
+          
+          <!-- our agent 1 -->
+          <div class="ourAgent__card ourAgent--one">
+            <div class="ourAgent__card--top">
+              <a href="#" class="ourAgent__img"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="ourAgent 1 from unsplash"></a>
+              <div class="ourAgent__social">
+                <a href="#" class="ourAgent__facebook social--icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="ourAgent__twitter social--icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="ourAgent__google social--icon"><i class="fab fa-google"></i></a>
+              </div>
+            </div>
+            <div class="ourAgent__card--bottom">
+              <p class="ourAgent__name">steve graves</p>
+              <p class="ourAgent__details">manager</p>
+              <p class="ourAgent__details">+ 123 456 7890</p>
+            </div>
+          </div>
+          
+          <!-- our agent 2 -->
+          <div class="ourAgent__card ourAgent--two">
+            <div class="ourAgent__card--top">
+              <a href="#" class="ourAgent__img"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="ourAgent 2 from unsplash"></a>
+              <div class="ourAgent__social">
+                <a href="#" class="ourAgent__facebook social--icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="ourAgent__twitter social--icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="ourAgent__google social--icon"><i class="fab fa-google"></i></a>
+              </div>
+            </div>
+            <div class="ourAgent__card--bottom">
+              <p class="ourAgent__name">samantha summer</p>
+              <p class="ourAgent__details">supervisor</p>
+              <p class="ourAgent__details">+ 123 456 7890</p>
+            </div>
+          </div>
+          
+          <!-- our agent 3 -->
+          <div class="ourAgent__card ourAgent--three">
+            <div class="ourAgent__card--top">
+              <a href="#" class="ourAgent__img"><img src="https://images.unsplash.com/photo-1504257432389-52343af06ae3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="ourAgent 3 from unsplash"></a>
+              <div class="ourAgent__social">
+                <a href="#" class="ourAgent__facebook social--icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="ourAgent__twitter social--icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="ourAgent__google social--icon"><i class="fab fa-google"></i></a>
+              </div>
+            </div>
+            <div class="ourAgent__card--bottom">
+              <p class="ourAgent__name">mark armstrong</p>
+              <p class="ourAgent__details">gen. manager</p>
+              <p class="ourAgent__details">+ 123 456 7890</p>
+            </div>
+          </div>
+          
+          <!-- our agent 4 -->
+          <div class="ourAgent__card ourAgent--four">
+            <div class="ourAgent__card--top">
+              <a href="#" class="ourAgent__img"><img src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="ourAgent 4 from unsplash"></a>
+              <div class="ourAgent__social">
+                <a href="#" class="ourAgent__facebook social--icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="ourAgent__twitter social--icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="ourAgent__google social--icon"><i class="fab fa-google"></i></a>
+              </div>
+            </div>
+            <div class="ourAgent__card--bottom">
+              <p class="ourAgent__name">jane smith</p>
+              <p class="ourAgent__details">operations manager</p>
+              <p class="ourAgent__details">+ 123 456 7890</p>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+      
+      <!-- ******************************************** OUR TESTIMONIAL -->
+      <div class="mainSections ourTestimonial">
+        <h2 class="mainSections__title">our testimonial</h2>
+        
+        <div class="carousel">
+
+          <button class="btn__carousel btn__carousel--left is-hidden">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+      
+          <div class="carousel__track-container">
+      
+            <ul class="carousel__track">
+              
+              <!-- testimonial 1 -->
+              <li class="carousel__slide current-slide">
+                <div class="ourTestimonial__para">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugiat nobis unde commodi ab provident nisi. Laborum quaerat adipisci inventore!</p>
+                </div>
+                <div class="ourTestimonial__customer">
+                  <img src="avatar/avatar1.jpg" alt="ourTestimonial 1 from unsplash but downloaded and crop">
+                  <div class="customer__details">
+                    <p class="person__name">anna smith</p>
+                    <p class="person__position">fashion designer</p>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- testimonial 2 -->
+              <li class="carousel__slide">
+                <div class="ourTestimonial__para">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugiat nobis unde commodi ab provident nisi. Laborum quaerat adipisci inventore!</p>
+                </div>
+                <div class="ourTestimonial__customer">
+                  <img src="avatar/avatar2.jpg" alt="ourTestimonial 2 from unsplash but             downloaded and crop">
+                  <div class="customer__details">
+                    <p class="person__name">john parker</p>
+                    <p class="person__position">business man</p>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- testimonial 3 -->
+              <li class="carousel__slide">
+                <div class="ourTestimonial__para">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugiat nobis unde commodi ab provident nisi. Laborum quaerat adipisci inventore!</p>
+                </div>
+                <div class="ourTestimonial__customer">
+                  <img src="avatar/avatar3.jpg" alt="ourTestimonial 3 from unsplash but downloaded and crop">
+                  <div class="customer__details">
+                    <p class="person__name">michael kitt</p>
+                    <p class="person__position">stage model</p>
+                  </div>
+                </div>
+              </li>
+      
+            </ul>
+      
+          </div>
+      
+          <button class="btn__carousel btn__carousel--right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+      
+          <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+          </div>
+        
+        </div>
+
+      </div>
+
+      <!-- ******************************************** OUR BLOG -->
+      <div class="mainSections ourBlog" id="container">
+        <h2 class="mainSections__title">our blog</h2>
+        <p class="mainSections__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolore.</p>
+
+        <div class="ourBlog__carousel"> 
+
+          <button class="btn__ourBlog btn__ourBlog--left is-hidden">
+            <i class="fas fa-chevron-left ourBlog-chevron"></i>
+          </button>
+
+          <div class="ourBlog__track-container">
+
+            <ul class="ourBlog__track">
+
+              <!-- blog 1 -->
+              <li class="ourBlog__slide ourBlog-current-slide">
+                <div class="ourBlog__card--top">
+                  <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ourBlog 1 from unsplash" class="ourBlog__img">
+                  <p class="ourBlog__cardTop--label">27 feb</p>
+                  <div class="ourBlog__deatils">
+                    <p class="ourBlog__deatils--admin detals__inside"><span><i class="far fa-user"></i></span>admin</p>
+                    <p class="ourBlog__deatils--msg detals__inside"><span><i class="far fa-comment-dots"></i></span>17K</p>
+                    <p class="ourBlog__deatils--cal detals__inside"><span><i class="far fa-calendar-alt"></i></span>73k</p>
+                  </div>
+                </div>
+                <div class="ourBlog__card--bottom">
+                  <a href="#" class="ourBlog__cardBottom--title">buying a best sports car</a>
+                  <p class="ourBlog__cardBottom--subTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, explicabo. Eius tempora minima a distinctio.</p>
+                  <a href="#" class="ourBlog__cardBottom--readMore">read more...!</a>
+                </div>
+              </li>
+
+              <!-- blog 2 -->
+              <li class="ourBlog__slide">
+                <div class="ourBlog__card--top">
+                  <img src="https://images.unsplash.com/photo-1597007066704-67bf2068d5b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="ourBlog 1 from unsplash" class="ourBlog__img">
+                  <p class="ourBlog__cardTop--label">27 feb</p>
+                  <div class="ourBlog__deatils">
+                    <p class="ourBlog__deatils--admin detals__inside"><span><i class="far fa-user"></i></span>admin</p>
+                    <p class="ourBlog__deatils--msg detals__inside"><span><i class="far fa-comment-dots"></i></span>17K</p>
+                    <p class="ourBlog__deatils--cal detals__inside"><span><i class="far fa-calendar-alt"></i></span>73k</p>
+                  </div>
+                </div>
+                <div class="ourBlog__card--bottom">
+                  <a href="#" class="ourBlog__cardBottom--title">buying a best sports car</a>
+                  <p class="ourBlog__cardBottom--subTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, explicabo. Eius tempora minima a distinctio.</p>
+                  <a href="#" class="ourBlog__cardBottom--readMore">read more...!</a>
+                </div>
+              </li>
+              
+              <!-- blog 3 -->
+              <li class="ourBlog__slide">
+                <div class="ourBlog__card--top">
+                  <img src="https://images.unsplash.com/photo-1584842486765-1fd648870a30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="ourBlog 1 from unsplash" class="ourBlog__img">
+                  <p class="ourBlog__cardTop--label">27 feb</p>
+                  <div class="ourBlog__deatils">
+                    <p class="ourBlog__deatils--admin detals__inside"><span><i class="far fa-user"></i></span>admin</p>
+                    <p class="ourBlog__deatils--msg detals__inside"><span><i class="far fa-comment-dots"></i></span>17K</p>
+                    <p class="ourBlog__deatils--cal detals__inside"><span><i class="far fa-calendar-alt"></i></span>73k</p>
+                  </div>
+                </div>
+                <div class="ourBlog__card--bottom">
+                  <a href="#" class="ourBlog__cardBottom--title">buying a best sports car</a>
+                  <p class="ourBlog__cardBottom--subTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, explicabo. Eius tempora minima a distinctio.</p>
+                  <a href="#" class="ourBlog__cardBottom--readMore">read more...!</a>
+                </div>
+              </li>
+
+            </ul>
+            
+          </div>
+
+          <button class="btn__ourBlog btn__ourBlog--right">
+            <i class="fas fa-chevron-right ourBlog-chevron"></i>
+          </button>
+
+          <div class="ourBlog__nav">
+            <button class="ourBlog__indicator ourBlog-current-slide"></button>
+            <button class="ourBlog__indicator"></button>
+            <button class="ourBlog__indicator"></button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ******************************************** CONTACT -->
+      <div class="mainSections contacts">
+        <div class="contact__content" id="container">
+          <div class="contact__card contact__card--one">
+            <h1 class="contact__title">car<span>company</span></h1>
+            <p class="contact__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptas, officia veniam nesciunt quibusdam quos consequatur incidunt minima. Ipsam, maiores?</p>
+          </div>
+
+          <div class="contact__card contact__card--two">
+            <h2 class="contact__subTitle">contact info</h2>
+            <ul class="contact__card__info">
+              <li class="contact__card__info--list contact--address"><span><i class="fas fa-map-marker-alt"></i></span> 4512 bldg name, street name, cityname, country</li>
+              <li class="contact__card__info--list"><span><i class="fas fa-envelope"></i></span>email@CarCompany.com</li>
+              <li class="contact__card__info--list"><span><i class="fas fa-phone-alt"></i></span>+1-800-AAA-BBBB</li>
+              <li class="contact__card__info--list"><span><i class="fas fa-fax"></i></span>+1-800-FAX-BBBB</li>
+            </ul>
+          </div>
+
+          <div class="contact__card contact__card--three">
+            <h2 class="contact__subTitle">useful links</h2>
+            <ul class="contact__card__links">
+              <li class="contact__card__links--link"><a href="#"><span><i class="fas fa-angle-right"></i></span>home</a></li>
+              <li class="contact__card__links--link"><a href="#"><span><i class="fas fa-angle-right"></i></span>about us</a></li>
+              <li class="contact__card__links--link"><a href="#"><span><i class="fas fa-angle-right"></i></span>services</a></li>
+              <li class="contact__card__links--link"><a href="#"><span><i class="fas fa-angle-right"></i></span>car listing</a></li>
+              <li class="contact__card__links--link"><a href="#"><span><i class="fas fa-angle-right"></i></span>blog</a></li>
+              <li class="contact__card__links--link"><a href="#"><span><i class="fas fa-angle-right"></i></span>contact us</a></li>
+              <li class="contact__card__links--link"><a href="#"><span><i class="fas fa-angle-right"></i></span>elements</a></li>
+            </ul>
+          </div>
+          
+          <div class="contact__card contact__card--four">
+            <h1 class="contact__subTitle">subscribe</h1>
+            <p class="contact__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nihil.</p>
+            <div class="emailBar">
+              <input type="email" id="email" value="Email Address">
+              <a href="#" class="emailBar__send"><i class="fas fa-paper-plane"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="footer">
+          <footer class="footer__content" id="container">
+            <div class="note">
+              <p class="footer__disc">disclaimer: this layout design was copied from the internet for demo purpose only. </p>
+              <p class="footer__disc">note: links don't have functions.</p>
+            </div>
+            <ul class="footer__social">
+              <li class="footer__social__link footer--facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="footer__social__link footer--twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li class="footer__social__link footer--google"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+              <li class="footer__social__link footer--linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+          </footer>
+          
+
+        </div>
+
+
+      </div>
+
+
+    </main>
+    
+    <!-- FOOTER -->
+      <a class="backToTop"><i class="fas fa-angle-double-up"></i></a>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

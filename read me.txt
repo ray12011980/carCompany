@@ -1,0 +1,24 @@
+main
+= color change settings
+= make alert/modal when click a link
+
+header
+= hide top header at scroll down
+
+intro section
+= left and right button
+
+find section
+= text should not make two lines
+
+featured section
+= make 2 for sale label into featured
+
+agent section = OK for now
+= need to scroll when click (in the future)
+
+testimonials = OK for now
+= carousel left and right arrow buttons hide only
+
+blog
+= add more cards and manual carousel
