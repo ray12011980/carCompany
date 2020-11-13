@@ -1,6 +1,7 @@
 main
 = color change settings
 = make alert/modal when click a link
+= host own fontawesome DONE
 
 header
 = hide top header at scroll down
@@ -19,6 +20,3 @@ agent section = OK for now
 
 testimonials = OK for now
 = carousel left and right arrow buttons hide only
-
-blog
-= add more cards and manual carousel

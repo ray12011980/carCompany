@@ -1613,6 +1613,10 @@ header {
   color: var(--clr-univ);
 }
 
+.ourBlog__nav {
+  display: none;
+}
+
 .ourBlog__card {
   background: var(--clr-light);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
