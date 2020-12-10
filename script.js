@@ -41,6 +41,7 @@ for (let item of items) {
 function closeSubmenu(e) {
   let isClickInside = mainNav.contains(e.target);
 
+  console.log(isClickInside);
   if (!isClickInside && mainNav.querySelector(".show-submenu")) {
     mainNav.querySelector(".show-submenu").classList.remove("show-submenu");
   }
@@ -76,6 +77,37 @@ function showSlides() {
 let slideIndex = 0;
 showSlides();
 // ******************************************************** INTRO SLIDESHOW
+// 
+// 
+// ******************************************************** FIND BAR
+const selectBrand = document.querySelector('.select__brand');
+// const selectOption = document.querySelector('.select__option');
+// const selectOptions = document.querySelectorAll('.select__option');
+const barListItems = document.querySelectorAll('.select__option');
+const findBar = document.querySelector('.findBar__content');
+
+/* Toggle find bar options */
+function toggleOptionBar() {
+  if (this.classList.contains("show-bar-selection")) {
+    this.classList.remove("show-bar-selection");
+  } else if (findBar.querySelector('.show-bar-selection')) {
+    findBar.querySelector('.show-bar-selection').classList.remove('show-bar-selection');
+    this.classList.add('show-bar-selection');
+  }
+    else {
+    this.classList.add("show-bar-selection");
+  }
+  
+}
+/* Event Listeners */
+for (barListItem of barListItems) {
+  if (barListItem.querySelector('.select__option__list')) {
+    barListItem.addEventListener("click", toggleOptionBar, false);
+  }
+}
+// ******************************************************** FIND BAR
+// 
+// 
 // 
 // ******************************************************** BACK TO TOP
 const btt = document.querySelector(".backToTop");
@@ -281,3 +313,26 @@ blogDotsNav.addEventListener('click', e => {
   blogHideShowArrows(blogSlides, blogPrevButton, blogNextButton, blogTargetIndex)
 })
 // ******************************************************** BLOG
+
+
+// ******************************************************** links modal
+// need to add removal of link function
+const links = document.querySelectorAll('.modal');
+
+// my 1st solution
+// function modalBox() {
+//   // no way to prevent default
+//   alert('Links are not functional');
+// }
+// 
+// links.forEach(link => {
+//   link.addEventListener('click', modalBox);
+// });
+
+// my shorter solution
+links.forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    alert('Hello.\nLinks are not functional.\nThis sample work is for demo purpose of a Responsive Layout and Simple Animation of the main page.\nThank You.');
+  })
+});
