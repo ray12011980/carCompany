@@ -331,13 +331,8 @@ header {
   display: block;
 }
 /* ================================================ FOR JAVASCRIPT */
-/* ==================================== MAIN HEADER */
 /*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
+/* ================================================== MAIN HEADER */
 /* ==================================== MAIN BODY */
 
 /* ==================================== INTRO */
@@ -411,12 +406,6 @@ header {
   transform: translateX(0%);
   transition: transform 250ms ease;
 }
-
-@media only screen and (min-width: 768px) {
-  .intro__slideshow {
-    /* height: calc(100vh - 80px - 50px); */
-  }
-}
 /* ==================================== INTRO */
 /*  */
 /* ==================================== FIND BAR */
@@ -444,7 +433,6 @@ header {
 
   display: flex;
   padding: 10px 0 10px 10px;
-  /* padding: 20px; */
   align-items: center;
   cursor: pointer;
   position: relative;
@@ -520,18 +508,11 @@ header {
   line-height: 1.5rem;
 }
 
-.featuredCar__list {
-  /* display: flex; */
-  /* display: grid; */
-  /* gap: 5rem; */
-}
-
 .featuredCar__card {
   background: var(--clr-light);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   max-width: 400px;
   margin: 0 auto;
-  /* margin-bottom: 5rem; */
 }
 
 .featuredCar__card + .featuredCar__card {
@@ -672,7 +653,6 @@ header {
 .cardBottom__reviews {
   padding: 0.8rem 0;
   list-style-type: none;
-  /* padding-bottom: 1rem; */
 
   display: flex;
   position: relative;
@@ -691,7 +671,6 @@ header {
 }
 
 .reviews--item {
-  /* border: 1px solid red; */
   font-size: var(--fs-xsm);
   color: var(--clr-grey);
   margin-left: 1rem;
@@ -708,7 +687,6 @@ header {
 .reviews__iconGrp {
   list-style-type: none;
   margin-left: auto;
-  /* margin-right: 1rem; */
   display: flex;
 }
 
@@ -788,12 +766,6 @@ header {
   }
 }
 
-@media only screen and (min-width: 992px) {
-  /* .featuredCar__card {
-    max-width: 400px;
-  } */
-}
-
 @media only screen and (min-width: 1024px) {
   .featuredCar__list {
     grid-template-columns: auto 3rem auto 3rem auto;
@@ -835,9 +807,6 @@ header {
 /* ==================================== WE R D BEST */
 .weRDBest__card + .weRDBest__card {
   margin-top: 3rem;
-}
-
-.weRDBest__list {
 }
 
 .weRDBest__card {
@@ -906,13 +875,6 @@ header {
 
   .weRDBest__card + .weRDBest__card {
     margin-top: 0rem;
-  }
-
-  .weRDBest__card {
-    /* background: var(--clr-light); */
-    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
-    /* max-width: 400px; */
-    /* margin: 0 auto; */
   }
 
   .weRDBest__card--one {
@@ -1118,13 +1080,11 @@ header {
   }
 
   .latestOffer--two {
-    /* width: 100%; */
     grid-column: 1 / 2;
     grid-row: 3 / -1;
   }
 
   .latestOffer--three {
-    /* width: 100%; */
     grid-column: 3 / 4;
     grid-row: 3 / -1;
   }
@@ -1149,33 +1109,12 @@ header {
 /* ==================================== LATEST OFFERS */
 
 /* ==================================== OUR AGENT */
-.ourAgent {
-  /* background: orange; */
-  /* height: 700px; */
-}
 
 .ourAgent__list {
-  /* border: 1px solid red; */
-  /* height: 450px; */
   width: 100%;
   max-width: 370px;
   margin: 0 auto;
-  /* display: flex; */
-  /* overflow-y: scroll; */
 }
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-/* .ourAgent__list::-webkit-scrollbar {
-  display: none;
-} */
-
-/* Hide scrollbar for IE, Edge and Firefox */
-/* .ourAgent__list { */
-/* -ms-overflow-style: none; */
-/* IE and Edge */
-/* scrollbar-width: none; */
-/* Firefox */
-/* } */
 
 .ourAgent__card {
   background: var(--clr-light);
@@ -1264,23 +1203,12 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
-  .ourAgent {
-    /* background: orange; */
-    /* height: 700px; */
-  }
-
   .ourAgent__list {
-    /* border: 1px solid red; */
-    /* height: 450px; */
     width: 100%;
     max-width: 700px;
-    /* margin: 0 auto; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
-    /* display: flex; */
-    /* overflow-y: scroll; */
-    /* width: 500px; */
   }
 
   .ourAgent__card + .ourAgent__card {
@@ -1296,95 +1224,17 @@ header {
 
   .ourAgent__card--top {
     height: 400px;
-    /* height: 350px;
-    width: 100%;
-
-    position: relative; */
   }
 
   .ourAgent__img img {
     height: 400px;
-    /* width: 100%;
-  height: 350px;
-  object-fit: cover;
-  object-position: top; */
   }
-  /* .ourAgent__list {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  }
-
-  .ourAgent__card {
-    margin: 2rem;
-  }
-
-  .ourAgent__card:first-of-type {
-    margin-top: 3rem;
-  }
-
-  .ourAgent__card + .ourAgent__card {
-    margin-top: 0;
-  }
-
-  .ourAgent__card--top {
-    height: 300px;
-  }
-
-  .ourAgent__img img {
-    height: 300px;
-  }
-
-  .ourAgent__card--bottom {
-    padding: 1rem 0;
-  }
-
-  .ourAgent__details {
-    margin-top: 0.5rem;
-  } */
 }
 
 @media only screen and (min-width: 980px) {
   .ourAgent__list {
     grid-gap: 4rem;
   }
-  /* .ourAgent__list {
-    display: grid;
-    grid-template-columns: max-content 2rem max-content;
-    grid-template-rows: max-content 2rem max-content;
-  }
-
-  .ourAgent__card {
-    max-width: 500px;
-  }
-
-  .ourAgent__card--top {
-    height: 500px;
-  }
-
-  .ourAgent__img img {
-    height: 500px;
-  }
-
-  .ourAgent--one {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-  }
-
-  .ourAgent--two {
-    grid-column: 3 / -1;
-    grid-row: 1 / 2;
-  }
-
-  .ourAgent--three {
-    grid-column: 1 / 2;
-    grid-row: 3 / -1;
-  }
-
-  .ourAgent--four {
-    grid-column: 3 / -1;
-    grid-row: 3 / -1;
-  } */
 }
 
 /* ==================================== OUR AGENT */
@@ -1488,12 +1338,6 @@ header {
   padding-top: 1rem;
 }
 
-/* .carousel__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
-
 .btn__carousel {
   font-size: 1.5rem;
   background: transparent;
@@ -1523,11 +1367,6 @@ header {
   display: flex;
   justify-content: center;
   padding: 0.5rem 0;
-
-  /* position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%); */
 }
 
 .carousel__indicator {
@@ -1610,7 +1449,6 @@ header {
 .ourBlog__cardTop--label {
   clip-path: polygon(0% 0%, 100% 0, 100% 79%, 50% 100%, 0 78%);
   font-size: var(--fs-xsm);
-  /* font-weight: 600; */
   background: rgba(0, 0, 0, 0.5);
   color: var(--clr-white);
   border-radius: 5px;
@@ -1624,7 +1462,6 @@ header {
 
 .ourBlog__deatils {
   font-size: var(--fs-xsm);
-  /* font-weight: 600; */
   background: rgba(0, 0, 0, 0.8);
   color: var(--clr-white);
   border-radius: 5px;
@@ -1720,7 +1557,6 @@ header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   max-width: 400px;
   margin: 0 auto;
-  /* margin-bottom: 5rem; */
 }
 
 @media only screen and (min-width: 768px) {
@@ -1836,7 +1672,6 @@ header {
 }
 
 .emailBar {
-  /* border: 1px solid red; */
   height: 3rem;
   position: relative;
 }
@@ -1845,12 +1680,9 @@ input[type="email"] {
   width: 100%;
   height: 100%;
   padding-left: 1rem;
-  /* margin: 1rem 0; */
   border-radius: 25px;
   border: none;
   outline: none;
-
-  /* border-bottom: 2px solid red; */
 }
 
 .emailBar__send {
@@ -1907,10 +1739,6 @@ input[type="email"] {
 }
 
 @media only screen and (min-width: 1024px) {
-  /* .emailBar__send {
-    padding: 0.9rem 1rem;
-  } */
-
   .contact__content {
     display: grid;
     grid-template-columns: auto 2rem auto 2rem auto 2rem auto;
@@ -1950,13 +1778,9 @@ input[type="email"] {
   width: 100%;
   height: 1px;
   background: rgba(255, 255, 255, 0.1);
-  /* background: var(--clr-dark); */
 
   position: absolute;
   top: 0;
-}
-
-.footer__content {
 }
 
 .footer__disc {
@@ -2016,10 +1840,6 @@ input[type="email"] {
 }
 
 @media only screen and (min-width: 1024px) {
-  .footer__social {
-    /* all: unset; */
-  }
-
   .footer__content {
     display: flex;
     justify-content: space-between;
@@ -2036,20 +1856,6 @@ input[type="email"] {
 }
 
 /* ==================================== CONTACT US--FOOTER */
-
-/* .btt {
-  background: var(--clr-univ);
-  width: 2rem;
-  height: 2rem;
-  text-align: center;
-
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-
-  visibility: hidden;
-} */
-
 .backToTop {
   font-size: var(--fs-big);
   color: var(--clr-white);

@@ -71,7 +71,7 @@ function showSlides() {
   // }
   slides[slideIndex - 1].style.display = "block";
   // dots[slideIndex - 1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
 
 let slideIndex = 0;
@@ -81,8 +81,6 @@ showSlides();
 // 
 // ******************************************************** FIND BAR
 const selectBrand = document.querySelector('.select__brand');
-// const selectOption = document.querySelector('.select__option');
-// const selectOptions = document.querySelectorAll('.select__option');
 const barListItems = document.querySelectorAll('.select__option');
 const findBar = document.querySelector('.findBar__content');
 
@@ -319,15 +317,6 @@ blogDotsNav.addEventListener('click', e => {
 // need to add removal of link function
 const links = document.querySelectorAll('.modal');
 
-// my 1st solution
-// function modalBox() {
-//   // no way to prevent default
-//   alert('Links are not functional');
-// }
-// 
-// links.forEach(link => {
-//   link.addEventListener('click', modalBox);
-// });
 
 // my shorter solution
 links.forEach(link => {
