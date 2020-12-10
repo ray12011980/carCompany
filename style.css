@@ -1584,12 +1584,6 @@ header {
   background-size: cover;
 }
 
-.contact__content {
-}
-
-.contact__card {
-}
-
 .contact__card + .contact__card {
   margin-top: 2rem;
 }
